@@ -89,6 +89,8 @@ For a detailed walkthrough, see [docs/navigation-flow.md](docs/navigation-flow.m
 ![Autonomous Navigation Demo](media/demo/demo.gif)
 *Clicking a point in RViz triggers autonomous path planning and execution.*
 
+**Video**: https://drive.google.com/file/d/15k39QlmxjkoDRNi8egDS7I8tnDRK4YeL/view?usp=drive_link
+
 ---
 
 ## 🗺️ Mapping & Visualization
