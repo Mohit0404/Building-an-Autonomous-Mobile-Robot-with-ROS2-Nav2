@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  ros2_nav:
+    build: .
+    container_name: ros2_humble_nav
+    environment:
+      - DISPLAY=${DISPLAY}
+      - LIBGL_ALWAYS_SOFTWARE=1
+      - TURTLEBOT3_MODEL=waffle
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - .:/ros2_ws/src/autonomous_robot
+    network_mode: host
+    privileged: true
+    stdin_open: true
+    tty: true
+    command: bash
